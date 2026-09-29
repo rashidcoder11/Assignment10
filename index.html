@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Photon Website</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #555;
+            background-color: white;
+        }
+
+        /* ================= HERO SECTION ================= */
+
+        .hero {
+            min-height: 600px;
+            background: linear-gradient(135deg, #6e7bf2, #4a5fc1, #384b9b);
+            color: white;
+            text-align: center;
+            padding-top: 150px;
+        }
+
+        .logo {
+            width: 80px;
+            height: 80px;
+            border: 2px solid white;
+            border-radius: 50%;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 35px;
+        }
+
+        .hero h1 {
+            font-size: 45px;
+            letter-spacing: 5px;
+            margin: 25px 0 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            line-height: 1.7;
+            margin: 0 auto 35px;
+            max-width: 600px;
+        }
+
+        .learn-button {
+            display: inline-block;
+            padding: 14px 30px;
+            border: 1px solid white;
+            border-radius: 25px;
+            color: white;
+            text-decoration: none;
+        }
+
+        /* ================= INTRO ================= */
+
+        .intro {
+            text-align: center;
+            padding: 90px 20px;
+            max-width: 850px;
+            margin: auto;
+        }
+
+        .intro h2 {
+            font-size: 30px;
+            color: #333;
+            margin-bottom: 25px;
+        }
+
+        .intro p {
+            font-size: 16px;
+            line-height: 1.8;
+        }
+
+        /* ================= FEATURES ================= */
+
+        .features {
+            background-color: #f7f7f7;
+            padding: 80px 20px;
+        }
+
+        .features h2 {
+            text-align: center;
+            font-size: 30px;
+            color: #333;
+            margin-bottom: 50px;
+        }
+
+        .feature-container {
+            max-width: 950px;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+        }
+
+        .feature {
+            background-color: white;
+            width: 30%;
+            padding: 35px 20px;
+            text-align: center;
+            border: 1px solid #e5e5e5;
+        }
+
+        .icon {
+            width: 65px;
+            height: 65px;
+            border: 2px solid #6978df;
+            border-radius: 50%;
+            margin: auto auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #6978df;
+            font-size: 27px;
+        }
+
+        .feature h3 {
+            color: #333;
+            font-size: 20px;
+        }
+
+        .feature p {
+            font-size: 14px;
+            line-height: 1.7;
+        }
+
+        /* ================= CONTENT ================= */
+
+        .content {
+            max-width: 900px;
+            margin: auto;
+            padding: 90px 20px;
+            text-align: center;
+        }
+
+        .content h2 {
+            color: #333;
+            font-size: 30px;
+        }
+
+        .content p {
+            line-height: 1.8;
+            font-size: 16px;
+        }
+
+        /* ================= CONTACT ================= */
+
+        .contact {
+            background: linear-gradient(135deg, #6575e6, #4657ba);
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .contact h2 {
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+
+        .contact p {
+            margin-bottom: 30px;
+        }
+
+        .contact-button {
+            display: inline-block;
+            padding: 13px 30px;
+            border: 1px solid white;
+            border-radius: 25px;
+            color: white;
+            text-decoration: none;
+        }
+
+        /* ================= FOOTER ================= */
+
+        footer {
+            background-color: #333;
+            color: #aaa;
+            text-align: center;
+            padding: 25px;
+            font-size: 14px;
+        }
+
+        /* ================= RESPONSIVE ================= */
+
+        @media (max-width: 700px) {
+
+            .hero {
+                min-height: 550px;
+                padding: 120px 20px 50px;
+            }
+
+            .hero h1 {
+                font-size: 35px;
+            }
+
+            .hero p {
+                font-size: 15px;
+            }
+
+            .feature-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .feature {
+                width: 90%;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+        <div class="logo">✦</div>
+
+        <h1>PHOTON</h1>
+
+        <p>
+            This is Photon, a simple and responsive website
+            designed with a clean and modern style.
+        </p>
+
+        <a href="#main" class="learn-button">
+            LEARN MORE
+        </a>
+
+    </section>
+
+
+    <!-- INTRO -->
+
+    <section class="intro" id="main">
+
+        <h2>Lorem ipsum dolor sit amet</h2>
+
+        <p>
+            Welcome to Photon. This website is designed to show
+            a simple and modern layout using HTML and CSS.
+            It is responsive and can be viewed on different
+            screen sizes.
+        </p>
+
+    </section>
+
+
+    <!-- FEATURES -->
+
+    <section class="features">
+
+        <h2>Lorem ipsum dolor sit amet</h2>
+
+        <div class="feature-container">
+
+            <div class="feature">
+
+                <div class="icon">⌂</div>
+
+                <h3>Modern Design</h3>
+
+                <p>
+                    A clean and simple design that provides
+                    an attractive user experience.
+                </p>
+
+            </div>
+
+
+            <div class="feature">
+
+                <div class="icon">⚡</div>
+
+                <h3>Fast Performance</h3>
+
+                <p>
+                    A lightweight website structure that
+                    loads quickly and works smoothly.
+                </p>
+
+            </div>
+
+
+            <div class="feature">
+
+                <div class="icon">♢</div>
+
+                <h3>Responsive</h3>
+
+                <p>
+                    The website adjusts its layout for
+                    desktop, tablet and mobile screens.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTENT -->
+
+    <section class="content">
+
+        <h2>Lorem ipsum dolor sit amet nullam</h2>
+
+        <p>
+            Photon provides a simple website structure with
+            clear sections, readable content and a responsive
+            layout. The design focuses on simplicity and
+            usability.
+        </p>
+
+        <p>
+            HTML and CSS are used to create the complete
+            webpage without requiring any external images
+            or other assets.
+        </p>
+
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section class="contact">
+
+        <h2>Get in touch</h2>
+
+        <p>
+            If you want to know more about Photon, feel free
+            to contact us.
+        </p>
+
+        <a href="#" class="contact-button">
+            CONTACT US
+        </a>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            © 2026 Photon Website. All Rights Reserved.
+        </p>
+
+    </footer>
+
+</body>
+</html>
